@@ -20,26 +20,20 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "James Zhang",
+  title: "Hi all, I'm James",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full-Stack Software Developer 🚀 with over 10 years of experience specializing in AI, machine learning, bot development, automation, web scraping, data processing and web development. Proven expertise in building scalable applications, deploying AI-powered solutions, and automating data pipelines."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: true, // Set to true to show resume download button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/dev107277891sjm",
+  gmail: "jameszbusiness0316@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,15 +43,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "A Full-Stack Software Developer Specializing in AI, Machine Learning, and Automation",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Develop highly interactive Frontend / Backend for your web applications with JavaScript / Reactjs / Nodejs / Angular"),
+    emoji("⚡ Develop AI-powered applications with Python, TensorFlow, OpenCV, and machine learning models"),
+    emoji("⚡ Build desktop applications using C#, VB.NET, and automation tools"),
+    emoji("⚡ Create web scraping solutions and data processing pipelines with BeautifulSoup, Scrapy, and Selenium"),
+    emoji("⚡ Develop chatbots and automation bots integrated with messaging platforms"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -89,8 +81,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "c#",
+      fontAwesomeClassname: "fab fa-csharp"
+    },
+    {
+      skillName: "vb.net",
+      fontAwesomeClassname: "fab fa-vb.net"
+    },
+    {
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
       skillName: "npm",
@@ -105,17 +109,9 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +122,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Tsinghua University",
+      logo: require("./assets/images/tsinghuaLogo.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "Graduated: 2015",
+      desc: "Focused on Artificial Intelligence, Machine Learning, and Software Engineering.",
+      descBullets: [
+        "Completed coursework in Data Structures, Algorithms, Computer Vision, and Deep Learning",
+        "Conducted a project on image processing using OpenCV and Python, applying machine learning techniques for object detection",
+        "Engaged in self-driven learning of web technologies including MERN stack and cloud deployment"
+      ]
     }
   ]
 };
@@ -153,15 +142,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend/Web Design", //Insert stack or technology you have experience in
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Backend/Desktop/AI/Algorithm",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
+      Stack: "Database/DevOps/Cloud",
       progressPercentage: "60%"
     }
   ],
@@ -174,29 +163,41 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Full-Stack Developer",
+      company: "FAW Group Co., Ltd.",
+      companylogo: require("./assets/images/FawLogo.jpg"),
+      date: "July 2023 – Present",
+      location: "Changchun, China",
+      desc: "Leading AI-driven development initiatives and managing a team of developers to deliver scalable solutions.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Architected and deployed AI-driven image processing modules for defect detection using Python, TensorFlow, and OpenCV, achieving 95% accuracy",
+        "Managed a team of 4 developers working on web scraping automation and data pipelines, ensuring timely delivery and data accuracy"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full-Stack Developer",
+      company: "FAW Group Co., Ltd.",
+      companylogo: require("./assets/images/FawLogo.jpg"),
+      date: "April 2018 – June 2023",
+      location: "Changchun, China",
+      desc: "Developed comprehensive solutions combining AI, web technologies, and desktop applications to streamline business processes.",
+      descBullets: [
+        "Developed image recognition features using Python, OpenCV, and TensorFlow for an AI-powered quality control system in manufacturing",
+        "Built internal desktop applications using C# and VB.NET to streamline reporting processes, reducing report generation time from hours to minutes",
+        "Deployed machine learning models into production environments, optimizing performance and accuracy for customer recommendations"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Junior Developer / Entry-Level",
+      company: "FAW Group Co., Ltd.",
+      companylogo: require("./assets/images/FawLogo.jpg"),
+      date: "September 2015 – March 2018",
+      location: "Changchun, China",
+      desc: "Built foundational skills in web development and automation, creating solutions that significantly improved operational efficiency.",
+      descBullets: [
+        "Developed a Python script using BeautifulSoup and Selenium to automate data extraction from multiple e-commerce websites, reducing manual effort by 90%",
+        "Built and maintained a small web application using PHP and MySQL for internal task management"
+      ]
     }
   ]
 };
@@ -372,8 +373,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "",
+  email_address: "jameszbusiness0316@gmail.com"
 };
 
 // Twitter Section
