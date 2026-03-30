@@ -23,7 +23,7 @@ const greeting = {
   username: "James Zhang",
   title: "Hi all, I'm James",
   subTitle: emoji(
-    "A passionate Full-Stack Software Developer 🚀 with over 10 years of experience specializing in AI, machine learning, bot development, automation, web scraping, data processing and web development. Proven expertise in building scalable applications, deploying AI-powered solutions, and automating data pipelines."
+    "A passionate Full-Stack AI & automation Engineer 🚀 with over 10 years of experience specializing in AI, machine learning, bot development, automation, web scraping, data processing and web development. Proven expertise in building scalable applications, deploying AI-powered solutions, and automating data pipelines."
   ),
   resumeLink: true, // Set to true to show resume download button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -43,13 +43,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A Full-Stack Software Developer Specializing in AI, Machine Learning, and Automation",
+  subTitle: "A Full-Stack AI & automation Engineer Specializing in AI, RAG, LLM, and Automation",
   skills: [
-    emoji("⚡ Develop highly interactive Frontend / Backend for your web applications with JavaScript / Reactjs / Nodejs / Angular"),
+    emoji("⚡ Develop RAG, AI agents, AI chatbots, AI pipelines and LLM applications using vector databases and LLM APIs"),
     emoji("⚡ Develop AI-powered applications with Python, TensorFlow, OpenCV, and machine learning models"),
+    emoji("⚡ Develop automation tools and workflows for data processing and analysis using Python, SQL, Excel, Power BI, Google Apps Script, VBA, n8n, Make.com, Zapier and other automation tools"),
+    emoji("⚡ Develop highly interactive Frontend / Backend for your web applications with JavaScript / Reactjs / Nodejs / Angular"),
     emoji("⚡ Build desktop applications using C#, VB.NET, and automation tools"),
     emoji("⚡ Create web scraping solutions and data processing pipelines with BeautifulSoup, Scrapy, and Selenium"),
-    emoji("⚡ Develop chatbots and automation bots integrated with messaging platforms"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon

@@ -4,6 +4,7 @@ import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
+import Projects from "./projects/Projects";
 import Footer from "../components/footer/Footer";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
@@ -49,8 +50,8 @@ const Main = () => {
             <StackProgress />
             <Education />
             <WorkExperience />
-            {/* <Projects />
-            <StartupProject />
+            <Projects />
+            {/* <StartupProject />
             <Achievement />
             <Blogs />
             <Talks />
