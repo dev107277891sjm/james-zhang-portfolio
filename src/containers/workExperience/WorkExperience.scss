@@ -1,6 +1,7 @@
 .experience-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  /* Keep 2 experience cards per row on larger screens */
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem 1rem;
 }
 
@@ -33,5 +34,10 @@
   .experience-heading {
     font-size: 30px;
     text-align: center;
+  }
+
+  /* Stack vertically on small screens */
+  .experience-cards-div {
+    grid-template-columns: 1fr;
   }
 }

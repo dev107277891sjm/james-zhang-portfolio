@@ -164,40 +164,67 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior Full-Stack Developer",
+      role: "Senior Full-Stack AI & Automation Engineer",
       company: "FAW Group Co., Ltd.",
       companylogo: require("./assets/images/FawLogo.jpg"),
       date: "July 2023 – Present",
       location: "Changchun, China",
-      desc: "Leading AI-driven development initiatives and managing a team of developers to deliver scalable solutions.",
+      desc: "Lead AI-driven product development and automation initiatives, coordinating web, desktop, and ML pipelines to deliver reliable, scalable solutions.",
       descBullets: [
-        "Architected and deployed AI-driven image processing modules for defect detection using Python, TensorFlow, and OpenCV, achieving 95% accuracy",
-        "Managed a team of 4 developers working on web scraping automation and data pipelines, ensuring timely delivery and data accuracy"
+        "Delivered RAG + LLM assistants for engineering docs (chunking + vector database retrieval using LLM APIs), so teams get faster, more accurate answers",
+        "Built Python AI pipelines for computer-vision defect detection using OpenCV + TensorFlow, improving model quality via data curation and tuning",
+        "Implemented embedding + retrieval workflows (vector DB indexing, relevance filtering) to keep generated responses accurate as content updates",
+        "Automated data processing and analysis using Python + SQL, orchestrated with `n8n`/`Make.com`/`Zapier`, with repeatable outputs for Excel and Power BI reporting",
+        "Built KPI dashboards and automated report generation with Power BI + Excel, including VBA macros to reduce manual formatting and consistency issues",
+        "Shipped React/JavaScript front-end and Node.js back-end APIs that turn ML outputs into clear KPIs and operational insights",
+        "Created scheduled web-scraping and ingestion pipelines in Python using BeautifulSoup/Selenium to keep datasets current for training and reporting",
+        "Coordinated and mentored a team of 4 engineers (reviews, planning, CI/CD reliability) to deliver dependable production services"
       ]
     },
     {
-      role: "Full-Stack Developer",
+      role: "Full-Stack Developer (AI/Computer Vision)",
       company: "FAW Group Co., Ltd.",
       companylogo: require("./assets/images/FawLogo.jpg"),
       date: "April 2018 – June 2023",
       location: "Changchun, China",
-      desc: "Developed comprehensive solutions combining AI, web technologies, and desktop applications to streamline business processes.",
+      desc: "Built end-to-end features across the stack—React/Node backends, ML model integrations, and desktop tooling—to streamline operations and reporting.",
       descBullets: [
-        "Developed image recognition features using Python, OpenCV, and TensorFlow for an AI-powered quality control system in manufacturing",
-        "Built internal desktop applications using C# and VB.NET to streamline reporting processes, reducing report generation time from hours to minutes",
-        "Deployed machine learning models into production environments, optimizing performance and accuracy for customer recommendations"
+        "Developed interactive React/JavaScript interfaces and Node.js REST APIs for manufacturing analytics and reporting workflows",
+        "Integrated computer-vision inference (OpenCV/TensorFlow) into web reporting pipelines, including post-processing and metric extraction",
+        "Implemented background jobs and automated data refresh services to reduce manual reporting effort, including workflow triggers via `n8n` and integration sync via `Zapier`",
+        "Built desktop automation tools using C#/.NET and VB.NET to streamline reporting and improve output consistency",
+        "Created Python automation for dataset preparation (cleaning + transformation) to produce repeatable ML-ready inputs",
+        "Maintained web scraping + ingestion pipelines using BeautifulSoup/Selenium to support reliable downstream data processing",
+        "Delivered analytics-ready datasets to Excel/Power BI and improved stakeholder visibility through automated dashboard refresh and structured logging",
+        "Improved reliability with structured logging, monitoring, and safer release practices for production services"
       ]
     },
     {
-      role: "Junior Developer / Entry-Level",
+      role: "Junior Developer / Automation Engineer",
       company: "FAW Group Co., Ltd.",
       companylogo: require("./assets/images/FawLogo.jpg"),
       date: "September 2015 – March 2018",
       location: "Changchun, China",
-      desc: "Built foundational skills in web development and automation, creating solutions that significantly improved operational efficiency.",
+      desc: "Built automation tools and internal applications that improved data processing reliability, reduced manual effort, and supported ML-ready datasets.",
       descBullets: [
-        "Developed a Python script using BeautifulSoup and Selenium to automate data extraction from multiple e-commerce websites, reducing manual effort by 90%",
-        "Built and maintained a small web application using PHP and MySQL for internal task management"
+        "Automated data extraction and preprocessing using Python with BeautifulSoup/Selenium, reducing manual collection effort for recurring business tasks",
+        "Developed and maintained internal PHP + MySQL applications for task management and operational workflows",
+        "Built ETL and data-cleaning routines in Python to standardize datasets for analysis and model evaluation",
+        "Supported report automation and data analysis by preparing consistent outputs for Excel/BI-style consumption and validating data quality before use"
+      ]
+    },
+    {
+      role: "Software Engineering Intern",
+      company: "FAW Group Co., Ltd.",
+      companylogo: require("./assets/images/FawLogo.jpg"),
+      date: "July 2013 – August 2015",
+      location: "Changchun, China",
+      desc: "Supported early engineering initiatives by building prototypes and assisting with data pipelines and front-end improvements under mentorship.",
+      descBullets: [
+        "Assisted with ETL and data cleaning routines in Python to standardize incoming datasets for downstream processing",
+        "Helped prototype lightweight services and scripts to transform, validate, and format data for internal tooling needs",
+        "Contributed to front-end work with JavaScript improvements and bug fixes for internal web pages",
+        "Supported automation tasks by documenting workflows and helping verify job outputs to ensure data pipelines ran reliably"
       ]
     }
   ]

@@ -121,6 +121,16 @@
   margin-top: 2rem;
 }
 
+/* Make bullet points easier to scan in the Experience card */
+.experience-text-details ul {
+  margin: 0.75rem 0 0 1.1rem;
+  padding: 0;
+}
+
+.experience-text-details li + li {
+  margin-top: 0.35rem;
+}
+
 /* Media Query */
 
 @media (max-width: 1380px) {

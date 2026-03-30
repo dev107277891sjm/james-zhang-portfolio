@@ -14,8 +14,8 @@ export default function Footer() {
         {greeting.resumeLink && (
           <div className="footer-resume-button">
             <a
-              href={require("../../containers/greeting/resume.pdf")}
-              download="Resume.pdf"
+              href={require("../../containers/greeting/JamesZhang_resume.pdf")}
+              download="JamesZhang_resume.pdf"
               className="download-link-button"
             >
               <Button text="Download Resume" />
